@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.form-control:focus,
+.form-control:active,
+.btn:focus,
+.btn:active {
+    outline: 0;
+    border: 0;
+}
+
+.bg-blue {
+    background-color: #004dff;
+}
+
+.bg-orange {
+    background-color: #ff8800;
+}
+
+.bg-blue-light {
+    background-color: #f7fafd;
+}
+
+.text-orange {
+    color: #ff8800;
+}
+
+.text-blue {
+    color: #004dff;
+}
+
+.text-grey {
+    color: #fafafc;
+}
+
+.text-semiblack {
+    color: #1c1c28;
+}
+
+.text-semiblack2 {
+    color: #555770;
+}
+
+.bg-grey {
+    background-color: #fafafc;
+}
+
+.border-rounded {
+    border-radius: 100px;
+}
+
+.border-right-round {
+    border-top-right-radius: 100px !important;
+    border-bottom-right-radius: 100px !important;
+}
+
+.border-left-round {
+    border-top-left-radius: 100px !important;
+    border-bottom-left-radius: 100px !important;
+}
+
+.text-indent {
+    text-indent: 25px;
+}
+
+
+/*/////////////////////////////////////////////*/
+
+.header.bg-blue {
+    border-bottom-left-radius: 100px;
+}
+
+.header nav .btn-outline-c1 {
+    color: #fafafc;
+    border: 1px solid #fafafc;
+    border-radius: 100px;
+}
+
+.header a:hover {
+    font-weight: bold;
+    transition: all 1s;
+}
+
+.header .btn-hover:hover {
+    background-color: black;
+    transition: all 0.5s;
+}
+
+.banner div.ad::before {
+    content: url('../../assets/group-3.png');
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-100%, -70%);
+}
+
+@media screen and (max-width: 600px) {
+    .banner div.ad::before {
+        display: none;
+    }
+}
+
+.hrdashed {
+    height: 0;
+    border-top: 1px dashed #fafafc;
+}
+
+.header .banner .input-group-frame {
+    border: 7px solid #fafafc;
+}
+
+.header .banner button {
+    transition: all 0.5s;
+}
+
+.header .banner button:hover {
+    background-color: black;
+    color: #fafafc;
+    transition: all 1s;
+}
+
+.comments .comment-icon {
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 3px 5px 0 rgba(0, 0, 0, 0.05);
+}
+
+.comments .commentposition {
+    top: -80px;
+}
+
+.comments .card {
+    width: 18rem;
+    border-radius: 30px;
+    border: 0;
+    box-shadow: 1px 3px 6px 0 rgba(0, 0, 0, 0.1);
+}
+
+.service .card:hover,
+.comments .card:hover {
+    box-shadow: 1px 3px 20px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s;
+}
+
+.comments .card img {
+    width: 60px;
+    height: 60px;
+}
+
+.service .radius30 {
+    border-radius: 30px;
+}
+
+.service .card img {
+    width: 100px;
+    height: 100px;
+}
+
+.company .dot {
+    width: 50px;
+    height: 50px;
+    background-color: #9dbff9;
+    line-height: 50px;
+}
+
+.company .btn:hover {
+    background-color: black;
+    color: white;
+    transition: all 0.5s;
+}
+
+.subscribe {
+    margin-top: 180px;
+}
+
+@media screen and (max-width: 770px) {
+    .subscribe {
+        margin-top: 40px;
+    }
+}
+
+.subscribe .post-position {
+    top: -290%;
+    left: -20%
+}
+
+.subscribe .input-group {
+    border: 8px solid transparent;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.subscribe .btn:hover {
+    background-color: black;
+    transition: all 1s;
+    color: #fafafc;
+}
+
+.subscribe .orang-container {
+    border-radius: 50px;
+}
+
+.subscribe ::placeholder {
+    color: #1c1c28;
+}
+
+.footer .top {
+    background-color: #f2f2f5;
+    padding: 90px 0 60px 0;
+}
+
+.footer a {
+    color: #555770;
+}
+
+.footer a:hover {
+    font-weight: bold;
+}
+
+.footer .bot {
+    background-color: #c7c9d9;
+}
+
+.footer .position-absolute {
+    top: -60px;
+    z-index: -1;
+    left: 0;
+    right: 0;
+}

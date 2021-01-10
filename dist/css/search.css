@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+.btn:focus,
+button:hover,
+label:focus,
+.btn:active {
+    outline: 0px !important;
+    -webkit-appearance: none;
+}
+
+.bg-blue {
+    background-color: #004dff;
+}
+
+.bg-orange {
+    background-color: #ff8800;
+}
+
+.bg-blue-light {
+    background-color: #f7fafd;
+}
+
+.bg-grey2 {
+    background-color: #fafafa;
+}
+
+.border-blue {
+    border: 1px solid #004dff !important;
+}
+
+.text-orange {
+    color: #ff8800;
+}
+
+.text-blue {
+    color: #004dff;
+}
+
+.text-grey {
+    color: #fafafc;
+}
+
+.text-semiblack {
+    color: #1c1c28;
+}
+
+.text-semiblack2 {
+    color: #555770;
+}
+
+.bg-grey {
+    background-color: #fafafc;
+}
+
+.border-rounded {
+    border-radius: 100px;
+}
+
+.border-right-round {
+    border-top-right-radius: 100px !important;
+    border-bottom-right-radius: 100px !important;
+}
+
+.border-left-round {
+    border-top-left-radius: 100px !important;
+    border-bottom-left-radius: 100px !important;
+}
+
+.text-indent {
+    text-indent: 25px;
+}
+
+
+/*/////////////////////////////////////////////*/
+
+.header.bg-blue {
+    border-bottom-left-radius: 100px;
+}
+
+.header nav .btn-outline-c1 {
+    border: 1px solid #fafafc;
+}
+
+.header a:hover {
+    font-weight: bold;
+    transition: all 1s;
+}
+
+.header .btn-hover:hover {
+    background-color: #004dff;
+    color: #fafafc;
+    transition: all 0.5s;
+}
+
+.serchbox .input-group-prepend img {
+    top: 50%;
+    transform: translate(-80%, -50%);
+    z-index: 5;
+}
+
+.serchbox input {
+    box-shadow: 1px 3px 6px 0 rgba(0, 0, 0, 0.1) !important;
+    border: none;
+}
+
+.serchbox table img {
+    width: 50px;
+    height: auto;
+}
+
+.serchbox table td,
+.serchbox table th {
+    vertical-align: middle !important;
+}
+
+.serchbox table tbody tr:first-child * {
+    border-top: none;
+}
+
+.pagination li a {
+    border: none;
+    border-radius: 30px !important;
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+}
+
+.footer .top {
+    background-color: #f2f2f5;
+    padding: 90px 0 60px 0;
+}
+
+.footer a {
+    color: #555770;
+}
+
+.footer a:hover {
+    font-weight: bold;
+}
+
+.footer .bot {
+    background-color: #c7c9d9;
+}
